@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=I2C_Wii_Classic_Controller.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\I2C_Wii_Classic_Controller -TC:\CooCox\CoIDE\configuration\ProgramData\I2C_Wii_Classic_Controller/arm-gcc-link.ld -g">
+      <target file="I2C_Wii_Classic_Controller.elf" lastModified="141503dc93d">
+         <source file="..\obj\semihosting.o" lastModified="141503d9e17"/>
+         <source file="..\obj\xdebug.o" lastModified="141503d9e4a"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="141503d9e7c"/>
+         <source file="..\obj\core_cm3.o" lastModified="141503d9ebd"/>
+         <source file="..\obj\xcore.o" lastModified="141503d9f12"/>
+         <source file="..\obj\xgpio.o" lastModified="141503d9f6f"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="141503d9fb6"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="141503da013"/>
+         <source file="..\obj\main.o" lastModified="141503dc74e"/>
+         <source file="..\obj\printf.o" lastModified="141503da0c7"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="141503da130"/>
+         <source file="..\obj\xsysctl.o" lastModified="141503da198"/>
+         <source file="..\obj\xi2c.o" lastModified="141503da211"/>
+         <source file="..\obj\sh_cmd.o" lastModified="141503da21f"/>
+         <source file="..\obj\syscalls.o" lastModified="141503da260"/>
+      </target>
+   </processor>
+</history>

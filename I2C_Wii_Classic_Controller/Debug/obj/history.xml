@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\semihosting -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\stm_lib\inc -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\cmsis_boot -ID:\Gregory\Documents\GitHub -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\CoX\CoX_Peripheral\inc -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\cmsis -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\CoX\CoX_Peripheral -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\CoX -ID:\Gregory\Documents\GitHub\I2C_Wii-Classic-Controller\stm_lib">
+      <target file="startup_stm32f10x_md_vl.o" lastModified="141503d9e7c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="1413134f058"/>
+      </target>
+      <target file="xcore.o" lastModified="141503d9f12">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xcore.c" lastModified="1413134e0b8"/>
+      </target>
+      <target file="syscalls.o" lastModified="141503da260">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="141313507c8"/>
+      </target>
+      <target file="xdebug.o" lastModified="141503d9e4a">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xdebug.c" lastModified="1413134e0b8"/>
+      </target>
+      <target file="xi2c.o" lastModified="141503da211">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xi2c.c" lastModified="14135472120"/>
+      </target>
+      <target file="printf.o" lastModified="141503da0c7">
+         <source file="..\..\..\stdio\printf.c" lastModified="14131399ba8"/>
+      </target>
+      <target file="core_cm3.o" lastModified="141503d9ebd">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="1413134f058"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="141503d9fb6">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1413134f058"/>
+      </target>
+      <target file="main.o" lastModified="141503dc74e">
+         <source file="..\..\..\main.c" lastModified="141503dc544"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="141503da013">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1413134f058"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="141503da21f">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="141313507c8"/>
+      </target>
+      <target file="semihosting.o" lastModified="141503d9e17">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="141313507c8"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="141503da130">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1413134f058"/>
+      </target>
+      <target file="xsysctl.o" lastModified="141503da198">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xsysctl.c" lastModified="1413134dcd0"/>
+      </target>
+      <target file="xgpio.o" lastModified="141503d9f6f">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xgpio.c" lastModified="1413134dcd0"/>
+      </target>
+   </processor>
+</history>
